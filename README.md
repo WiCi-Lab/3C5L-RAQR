@@ -2,4 +2,6 @@ This work investigates an efficient three-color laser excitation-based Rydberg a
 
 The main entry of scripts is main_SNR.m 
 
+Paper link: [https://arxiv.org/pdf/2603.24062](https://arxiv.org/pdf/2603.24062)
+
 
