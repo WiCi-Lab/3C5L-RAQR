@@ -1,4 +1,4 @@
-This work investigates an efficient three-color laser excitation-based Rydberg atomic quantum receiver architecture for wireless communications, utilizing a five-level electronic transition mechanism. 
+This work investigates an three-color laser excitation-based Rydberg atomic receiver architecture for wireless communications, utilizing a five-level electronic transition mechanism. 
 
 The main entry script is main_SNR.m 
 
