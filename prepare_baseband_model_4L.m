@@ -23,7 +23,7 @@ dL = rf_drive_liouvillian_derivative_4L();
 L0 = cell(1,Nv);
 rhs = cell(1,Nv);
 chi_prime_dc = 0;
-K = N_eff*mu12^2/(eps0*h_bar*Op);
+K = 2*N_eff*mu12^2/(eps0*h_bar*Op);
 
 for iv = 1:Nv
     v = v_array(iv);

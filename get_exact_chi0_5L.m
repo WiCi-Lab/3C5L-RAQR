@@ -17,6 +17,6 @@ for idx = 1:Nv
         Gamma_coh, gamma_t, D_vec);
     rho21_sum = rho21_sum + rho_ss(2)*P_v(idx)*dv;
 end
-K = N_eff*mu12^2/(eps0*h_bar*Op);
+K = 2*N_eff*mu12^2/(eps0*h_bar*Op);
 chi_0 = K*rho21_sum;
 end

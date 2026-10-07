@@ -53,7 +53,7 @@ p.gammas_5L_base = [4.56e6*2*pi, 0.98e6*2*pi, 0.57e3*2*pi, 2.73e3*2*pi];
 
 p.detuning_RF_5L = -0.6e6*2*pi;
 
-p.N_v_4L = 1001;
-p.N_v_5L = 1001;
+p.N_v_4L = 201;
+p.N_v_5L = 201;
 p.P_t_dBm = linspace(-80,20,25);
 end

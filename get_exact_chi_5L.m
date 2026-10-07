@@ -36,7 +36,7 @@ for idx = 1:Nv
     rho21_m_array(idx) = rho_ss_m(2) * weight;
 end
 
-K = (N_eff * mu12^2) / (eps0 * h_bar * Op);
+K = (2*N_eff * mu12^2) / (eps0 * h_bar * Op);
 chi_0 = K * sum(rho21_0_array);
 chi_p = K * (sum(rho21_p_array) - sum(rho21_m_array)) / (2*d_Olo);
 rho11_avg = sum(rho11_array);
